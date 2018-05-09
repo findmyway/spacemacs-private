@@ -38,7 +38,9 @@ values."
      ;; ----------------------------------------------------------------
      git
      helm
-     shell
+     (shell :variables
+            shell-default-shell 'shell
+            shell-default-position 'bottom)
      racket
      emacs-lisp
      version-control
