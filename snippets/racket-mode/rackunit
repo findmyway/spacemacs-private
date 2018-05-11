@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: rackunit
+# key: rackunit
+# --
+#lang racket
+
+(require rackunit
+         "$1.rkt"$2)
+
+$0

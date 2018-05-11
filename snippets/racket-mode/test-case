@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: test-case
+# key: test-case
+# --
+(test-case
+    "$1"
+  (check-equal? $2)$3)
+$0
