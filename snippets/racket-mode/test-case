@@ -4,5 +4,4 @@
 # --
 (test-case
     "$1"
-  (check-equal? $2)$3)
-$0
+  (check-equal? $0))

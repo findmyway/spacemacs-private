@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: defn
-# key: defn
-# --
-(define $1
-  (lambda ($2)
-    $3))
-
-$0
